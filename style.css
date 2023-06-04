@@ -1,27 +1,108 @@
-.main{
+.main {
     background-color: #8E1C11;
-    width: 100%;
-}
+  }
+  
+  .navbar-nav.ml-auto .nav-link {
+    color: #ffffff; /* optional: change the color of the navigation links */
+  }
 
-.nav-item{
-    color: white;
+
+  .brand-text {
+    text-align: center; /* Center the text */
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Add font weight */
+    color: #ffffff;
+  }
+
+  .section1{
+    background-color: #8E1C11;
+    margin: 0;
+  }
+
+  .office-image{
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 10%;
+  }
+
+  .subtext {
+    font-size: 14px; /* Smaller font size */
+    font-weight: lighter; /* Faded font weight */
+    color: #EEC3C3;
+    text-align: center;
+  }
+
+  .card-header{
+    background-color: inherit;
+  }
+
+  .card-header button {
     text-decoration: none;
-}
+    font-size: 3vw;
+    color: black;
+    border: none; /* Remove button border */
+    background-color: inherit;
+    box-shadow: none; /* Remove button box shadow */
+    transition: none; /* Remove button transition */
 
-.section1 > .part1 > .hello{
-    font-size: 2em;
-    color: white;
+  }
+
+  #serviceAccordion{
+    background-color: inherit;
+  }
+
+  .card{
+    margin-bottom: 30px;
+    background-color: inherit;
+    border: none;
+  }
+  .card-header button:focus {
+    outline: none; /* Remove focus outline */
+    text-decoration: none; /* Remove underline on focus */
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .card-header button:hover {
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .card-body{
+    font-size: 1.2vw;
+    width: 60%;
+    border: none;
+  }
+
+  .button-tag{
+    font-size: 1vw;
+    margin-top: 2%;
+  }
+
+  .section2{
+    background-color: #FFE1E1;
+  }
+  .section2-title{
+    font-size: 2vw;
     font-weight: bold;
-    text-align: center;
-}
-.build{
-    font-size: 1.1rem;
-    color: white;
-    font-weight:normal;
-    text-align: center;
-}
-
-.section1 > .part2{
-    width: 100%;
-}
-
+    color: #8E1C11;
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+  }
+  .section2-title2{
+    font-size: 4vw;
+    font-weight: bold;
+    color: black;
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+  }
+  @media (max-width: 768px) {
+    .brand-text {
+      font-size: 18px; /* Decrease the font size for smaller screens */
+    }
+  }
