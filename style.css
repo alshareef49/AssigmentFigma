@@ -1,0 +1,27 @@
+.main{
+    background-color: #8E1C11;
+    width: 100%;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+}
+
+.section1 > .part1 > .hello{
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.build{
+    font-size: 1.1rem;
+    color: white;
+    font-weight:normal;
+    text-align: center;
+}
+
+.section1 > .part2{
+    width: 100%;
+}
+
