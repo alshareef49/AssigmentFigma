@@ -101,6 +101,68 @@
     /* margin-top: 40px; */
     margin-bottom: 40px;
   }
+
+  .section3{
+    background-color: #8E1C11;
+    height: 3600px;
+  }
+
+  .section3 > .client{
+    font-size: 2vw;
+    border-bottom: 1px solid #ffffff;
+    width: 80%;
+    font-weight: 800;
+  }
+
+  .client-content{
+    font-size: 2.5vw;
+    color: #ffffff;
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+  }
+
+  .client-items{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .client-item {
+    flex: 0 0 25%; /* Display 4 items per row on larger screens */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .client-response{
+    position: absolute;
+    top: 3342px;
+    left: 300px;
+  }
+
+  
+  input[type="text"],
+  input[type="email"]{
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .section4{
+    height: 600px;
+    /* width: 100%; */
+    background-color: black;
+  }
+
+
+  @media (max-width: 768px) {
+    /* Adjust the layout for screens smaller than 768px */
+    .client-item {
+      flex: 0 0 50%; /* Display 2 items per row */
+    }
+  }
+
   @media (max-width: 768px) {
     .brand-text {
       font-size: 18px; /* Decrease the font size for smaller screens */
